@@ -1,7 +1,7 @@
 set tabstop=4 softtabstop=4
 set expandtab
 set smartindent
-set guicursor
+set guicursor=
 set relativenumber
 set nohlsearch
 set nu
@@ -13,9 +13,13 @@ set noswapfile
 set undodir=~/.vim/undodir
 set undofile
 set nobackup
-set termguicolors
 set scrolloff=8
 set signcolumn=yes
-set colorcolumn=90
+
+call plug#begin('~/.vim/plugged')
+
+call plug#end()
+
+
 
 
